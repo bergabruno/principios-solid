@@ -29,4 +29,16 @@ public class Funcionario {
 	public void promote(Cargo novoCargo) {
 		this.dadosPessoais.setCargo(novoCargo);
 	}
+
+	public DadosPessoais getDadosPessoais() {
+		return dadosPessoais;
+	}
+
+	public void setDadosPessoais(DadosPessoais dadosPessoais) {
+		this.dadosPessoais = dadosPessoais;
+	}
+	public BigDecimal getSalario() {
+		return dadosPessoais.getSalario();
+	}
+
 }
